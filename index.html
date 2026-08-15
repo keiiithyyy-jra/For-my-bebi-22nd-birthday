@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="opening" class="screen">
+  <div class="card">
+    <div class="cake">🎂</div>
+    <h1>Hello, my dear love!</h1>
+    <p>August 16 is all about you.</p>
+    <button onclick="openSurprise()">Open your surprise ♡</button>
+  </div>
+</div>
+
+<main id="website" class="hidden">
+
+  <section class="hero">
+    <h1>Happy Birthday, loml!! ♡</h1>
+    <p>
+      First, I want to say how lucky I am to have you in my life.
+      And how grateful I am for every moment and breath we share together.
+    </p>
+  </section>
+
+  <section>
+    <h2>Hi, bebi! Here Are The Few Things I Love About You</h2>
+
+    <div class="love-grid">
+      <button class="love-card" onclick="reveal(this, 'You always make me laugh in the best way.')">Click me ♡</button>
+      <button class="love-card" onclick="reveal(this, 'I love how you always reassure me whenever life feels confusing.')">Click me ♡</button>
+      <button class="love-card" onclick="reveal(this, 'I love how we get to open everything to each other.')">Click me ♡</button>
+      <button class="love-card" onclick="reveal(this, 'I love how you prioritize me and our relationship over everything else. And I thank you for that.')">Click me ♡</button>
+      <button class="love-card" onclick="reveal(this, 'I love you for just being who you are. I love your presence, your smile, your face, your flaws and imperfections. Everything.')">Click me ♡</button>
+      <button class="love-card" onclick="reveal(this, 'And I could keep listing reasons forever.')">Click me ♡</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>A Tiny Birthday Game for you, my bebi!<h2>
+    <p>Catch 8 hearts like you catch my heart to unlock your birthday wish!</p>
+
+    <div id="game">
+      <div id="score">Hearts: 0 / 8</div>
+    </div>
+
+    <p id="gameMessage"></p>
+  </section>
+
+  <section>
+    <h2>You Have One Last Letter</h2>
+
+    <div class="envelope" onclick="openLetter()">
+      💌
+      <p>Click to open</p>
+    </div>
+
+    <div id="letter" class="letter hidden">
+      <p id="typed"></p>
+    </div>
+  </section>
+
+  <section class="final">
+    <h2>One Last Gift...</h2>
+    <button onclick="showFinal()">Open it ♡</button>
+
+    <div id="finalMessage" class="hidden">
+      <h1>Happy Birthday, My Love, My Bebi, My Sweetheart, My Honey, My Soulmate♡</h1>
+      <p>
+        Happy 22nd Birthday!
+        I cannot wish for you anything else but the
+        best of everything in this life.
+        I wish you good health, endless laughter,
+        every dreams you wish God and the Universe
+        to grant you. My wish for you is that you
+        always find every way to be happy.
+        Thank you for being a good man, a best boyfriend,
+        a loving partner, and wonderful human being.
+        As long as I live, I will protect you with 
+        everything I can. My life costs nothing
+        without you, my loveee. I love God and your
+        parents for giving me the best gift of my life.
+        I cannot imagine that on this day, 22 years ago,
+        August 10 of 2004, my soulmate was born.
+        God finished your story and sent you to this world
+        on this day to be my partner, my life, my everything.
+        And I cannot thank him enough for that. 
+        Happiest Birthday, beautiful soul! I love youuuuuu!    
+      </p>
+      <h2>I'd choose you every single time. ♡</h2>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
